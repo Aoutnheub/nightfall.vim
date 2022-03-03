@@ -332,6 +332,30 @@ execute 'highlight CocExplorerHelpHint        guifg=' . palette.grey6 . ' guibg=
 
 execute 'highlight CocRustChainingHint guifg=' . palette.grey6 . ' guibg=NONE'
 
+"" kyazdani42/nvim-tree.lua
+execute 'highlight NvimTreeSymlink guifg=' . palette.aqua . ' guibg=NONE'
+execute 'highlight NvimTreeFolderName guifg=' . palette.blue . ' guibg=NONE'
+execute 'highlight NvimTreeRootFolder guifg=' . palette.red . ' guibg=NONE'
+execute 'highlight NvimTreeFolderIcon guifg=' . palette.blue . ' guibg=NONE'
+execute 'highlight NvimTreeEmptyFolderName guifg=' . palette.blue . ' guibg=NONE'
+execute 'highlight NvimTreeOpenedFolderName guifg=' . palette.blue . ' guibg=NONE'
+execute 'highlight NvimTreeExecFile guifg=' . palette.green . ' guibg=NONE'
+execute 'highlight NvimTreeOpenedFile guifg=NONE guibg=NONE'
+execute 'highlight NvimTreeSpecialFile guifg=' . palette.orange . ' guibg=NONE'
+execute 'highlight NvimTreeImageFile guifg=' . palette.purple . ' guibg=NONE'
+execute 'highlight NvimTreeMarkdownFile guifg=' . palette.yellow . ' guibg=NONE'
+execute 'highlight NvimTreeIndentMarker guifg=' . palette.grey3 . ' guibg=NONE'
+execute 'highlight NvimTreeGitDirty guifg=' . palette.orange . ' guibg=NONE'
+execute 'highlight NvimTreeGitStaged guifg=' . palette.blue . ' guibg=NONE'
+execute 'highlight NvimTreeGitMerge guifg=' . palette.purple . ' guibg=NONE'
+execute 'highlight NvimTreeGitRenamed guifg=' . palette.aqua . ' guibg=NONE'
+execute 'highlight NvimTreeGitNew guifg=' . palette.green . ' guibg=NONE'
+execute 'highlight NvimTreeGitDeleted guifg=' . palette.red . ' guibg=NONE'
+execute 'highlight NvimTreeLspDiagnosticsError guifg=' . palette.red . ' guibg=NONE'
+execute 'highlight NvimTreeLspDiagnosticsWarning guifg=' . palette.orange . ' guibg=NONE'
+execute 'highlight NvimTreeLspDiagnosticsInformation guifg=' . palette.blue . ' guibg=NONE'
+execute 'highlight NvimTreeLspDiagnosticsHint guifg=' . palette.aqua . ' guibg=NONE'
+
 "" nvim-telescope/telescope.nvim
 " COMMING SOON
 
